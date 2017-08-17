@@ -1,6 +1,5 @@
 /* SLIMBOX */
-.pic-thumb{display:none;}
-.album h2 {display: none;}
+
 #lbOverlay {
 	position: fixed;
 	z-index: 9999;
