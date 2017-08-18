@@ -1,11 +1,52 @@
-body {
-	background-color: #222;
-	color: #a8a8a8;
-	border-width: 30px 20px 27x 30px;    
-	border-image: url(img/foto.png) 30 25 27 34 stretch;
-	min-width: 350px;
-	
+html{
+  height: 100%;
 }
+body{
+	background-color: #222; 
+	margin: 0; 
+	padding: 0;
+	font:1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+	color: #a8a8a8;
+	height: 100%;
+}
+
+img{
+	margin: 0; 
+	padding: 0; 
+	vertical-align: middle; 
+	border: none;
+}
+
+.main{
+  border: 1px solid #ccc; 
+  background: #fff; 
+}
+.bl{
+  /*border:1px solid #ddd;*/
+  background: #fffde1; 
+  overflow:visible
+;
+}
+
+.main{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	max-width: 1280px;
+	height: 99%;
+	margin: auto;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	flex-flow: row wrap;
+}
+
+.bl{flex: 1 1 200px; text-align: center}
+			
+.fl1{height: 8%; background:#222; order: 1; flex-basis: 100%;}
+			
+.fl3{height: 92.5%; background:#222; order: 2; flex-basis: 80%;}
 
 .vk{
 	margin: auto;
@@ -13,7 +54,7 @@ body {
 
 #menu-bar {
   width: 98%;
-  margin: 0px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   padding: 6px 6px 4px 6px;
   height: 40px;
   line-height: 100%;
