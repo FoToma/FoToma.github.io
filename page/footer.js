@@ -1,0 +1,4 @@
+var footer = '<script src="../js/jquery.min.js"></script>'
+	+ '<script src="../js/jquery.slimbox2.js"></script>'
+	+ '<script src="../js/jquery.embedvkgallery.js"></script>'
+	+ '<script src="../main.js"></script>''
