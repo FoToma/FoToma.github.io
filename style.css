@@ -1,5 +1,6 @@
 @import url("./font-awesome/css/font-awesome.min.css");
 @import url("./slimbox/slimbox2.css");
+@import url("styleSlider.css");
 
 body {
 	background-color: #222;
@@ -22,7 +23,7 @@ body {
 }
 
 #glbl{
-	color:Blue;
+	color:lightBlue;
 	float: right;
 	margin: -4px 10px 0 0;
   cursor: pointer;
@@ -86,13 +87,15 @@ body {
   transform: scale(1.1) rotate(360deg);
 }
 
-.social-icons .fa-vk{background-color:#375474; }
+.social-icons .fa-vk{background-color:#375474;}
 .social-icons .fa-facebook{background-color:#3C599F;} 
 .social-icons .fa-instagram{background-color:#A1755C;} 
 .social-icons .fa-globe{background-color:lightBlue; color:blue;}
 .social-icons .fa-envelope{color:red;}
+.social-icons .planeta{background-color:#fff; color:#375474;}
 
 /*---- .social-icons end -------*/
+
 
 #menu-bar {
   width: 98%;

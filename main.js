@@ -11,11 +11,12 @@
 					colorIcon = false;
 					$("#si").fadeToggle(1000);
 				}else{
-					$("#glbl").css('color', 'blue');
+					$("#glbl").css('color', 'lightBlue');
 					colorIcon = true;
 					$("#si").fadeToggle(300);
 				}
 		});
+
 
 		// $( "#clickme" ).click(function() {
 		//   $( "#book" ).fadeIn( "slow", function() {

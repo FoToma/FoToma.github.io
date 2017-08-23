@@ -11,12 +11,54 @@
 	<link rel="stylesheet" href="../style.css">
 	<script src="menu.js"></script>
 </head>
+<script>
+	var slider = {
+		slides:['ch01.jpg','ch02.jpg','ch03.jpg','ch04.jpg','ch05.jpg'],
+		frame: 0, // текущий кадр для отбражения - индекс картинки из массива
+		set: function(image) { // установка нужного фона слайдеру
+			document.getElementById("scr").style.backgroundImage = "url(../slider/"+image+")";
+		},
+		init: function() { // запуск слайдера с картинкой с нулевым индексом
+			this.set(this.slides[this.frame]);
+		},
+		left: function() { // крутим на один кадр влево
+			this.frame--;
+			if(this.frame < 0) this.frame = this.slides.length-1;
+			this.set(this.slides[this.frame]);
+		},
+		right: function() { // крутим на один кадр вправо
+			this.frame++;
+			if(this.frame == this.slides.length) this.frame = 0;
+			this.set(this.slides[this.frame]);		
+		}
+	};
+
+	window.onload = function() { // запуск слайдера после загрузки документа
+		slider.init();
+		setInterval(function() { // ставим пятисекундный интервал для перелистывания картинок
+			slider.right();
+		},5000);
+	};
+</script>
 
 <body>
+	<ul id="menu-bar">
+		<li class="active"><a href="index.html">Главная</a></li>
+		<li><a href="portfolio.html">Портфолио</a></li>
+		<li><a href="about.html">О себе</a></li>
+
 	<script>
 		document.write(menuHeader);
 	</script>
 
+	<div id="main">
+		<button class="left" onclick="slider.left();"><i class="fa fa-camera" aria-hidden="true"></i><b>FoToma</b></button>
+		<div id="scr"></div>
+		<button class="right" onclick="slider.right();"><i class="fa fa-camera" aria-hidden="true"></i><b>FoToma</b></button>
+	</div>
+
+
+	</script>
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/jquery.slimbox2.js"></script>
 	<script src="../js/jquery.embedvkgallery.js"></script>
