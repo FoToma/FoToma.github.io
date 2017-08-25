@@ -156,15 +156,16 @@
 .language-dropdown label, .language-dropdown ul li {
 	display: block;
 	width: 50px;
-	height: 35px;
+	/*height: 35px;*/
+	line-height: 35px;
 	cursor: pointer;
 }
 
 .language-dropdown ul.lang-list {
 	position: relative;
-	visibility: hidden;
+	/*visibility: hidden;*/
 	opacity: 0;
-	z-index: 1001;
+	z-index: 2001;
 }
 
 /*.language-dropdown ul.lang-list li {
