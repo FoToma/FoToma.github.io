@@ -13,19 +13,26 @@
 </head>
 
 <body>
-	<ul id="menu-bar">
-		<li ><a href="index.html">Главная</a></li>
-		<li><a href="portfolio.html">Портфолио</a></li>
-		<li class="active"><a href="about.html">О себе</a></li>
 
-	<script>
-		document.write(menuHeader);
-	</script>
-	
+	<ul id="menu-bar">
+		<li ><a href="index.html"><span id="home">Главная</span></a></li>
+		<li><a href="portfolio.html"><span id="portfolio">Портфолио</span></a></li>
+		<li class="active"><a href="about.html"><span id="about">О себе</span></a></li>
+		<i id = "glbl" class="fa fa-globe fa-3x" aria-hidden="true"></i>
+	</ul>
+
+	<script>document.write(menuHeader)</script>
+
+	<div id="lang_selected">
+	  <p>РОССИЯ</p>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
 	<script src="../js/jquery.min.js"></script>
 	<script src="../js/jquery.slimbox2.js"></script>
 	<script src="../js/jquery.embedvkgallery.js"></script>
 	<script src="../main.js"></script>
+
+	<script src="../js/readyFlags.js"></script>
 
 </body>
 </html>
