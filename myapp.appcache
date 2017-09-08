@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-# MyApp версия 2 (изменяйте этот номер, чтобы заставить броузеры повторно загрузить файлы)
+# MyApp версия 3 (изменяйте этот номер, чтобы заставить броузеры повторно загрузить файлы)
 # Следующие строки определяют ресурсы, необходимые для работы приложения
 component/flags/dataFlags.js
 component/flags/flag.css
@@ -94,5 +94,5 @@ slider/ch02.jpg
 slider/ch03.jpg
 slider/ch04.jpg
 slider/ch05.jpg
+https://cdn.jsdelivr.net/ramda/0.23.0/ramda.min.js
 favicon.ico
-https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js
