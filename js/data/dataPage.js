@@ -15,6 +15,7 @@ var pageContent = [
     {id: "ja", home: "Контент_home_JP", portfolio: "Контент_portfolio_JP", about: "Контент_about_JP"},
     {id: "ji", home: "Контент_home_IS", portfolio: "Контент_portfolio_IS", about: "Контент_about_IS"},
     {id: "ko", home: "Контент_home_KO", portfolio: "Контент_portfolio_KO", about: "Контент_about_KO"},
+	{id: "nl", home: "Контент_home_NL", portfolio: "Контент_portfolio_NL", about: "Контент_about_NL"},
     {id: "pl", home: "Контент_home_POL", portfolio: "Контент_portfolio_POL", about: "Контент_about_POL"},
     {id: "pr", home: "Контент_home_PO", portfolio: "Контент_portfolio_PO", about: "Контент_about_PO"},
     {id: "ru", home: "Контент_home_Россия", portfolio: "Контент_portfolio_Россия", about: "Контент_about_Россия"},
