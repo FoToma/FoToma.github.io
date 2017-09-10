@@ -17,5 +17,5 @@
 15. Бегущая строка (marquee)- данные в dataTicker.js реализация в readyFlags.js;
 16. Задействованы Ramda и jQuery библиотеки;
 17. Страницы реализованыпри помощи handlebars шаблонов.
-18. Пока закомментировал - Приложение закэшировано - myapp.appcache
+18. Пока закомментировал - (Приложение закэшировано - myapp.appcache)
 19. @font-face 'Nautilus Pompilius';
